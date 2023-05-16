@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    user-select: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  nav{
+    width: 100%;
+    background-color: #1a283a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 60px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  header li {
+    padding: 0 2rem;
+  }
+
+  .menu-btn {
+    display: none;
+    font-size: 20px;
+  }
+
+  header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  a:hover{
+    color: #acb1b8;
+  }
+
+  @media screen and (max-width: 992px) {
+    .nav-links {
+      display: none;
+    }
+    
+    .menu-btn{
+      display: block;
+    }
+  }
+
+  .sidebar {
+    width: 50%;
+    background-color: #1a283a;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+    right: -5px;
+    display: none;
+    z-index: 100;
+  }
+
+  .sidebar.open {
+    width: 50%;
+    display: block;
+  }
+
+  .side-links {
+    color: #fff;
+    justify-content: center;
+    padding-bottom: 2rem;
+    align-items: center;
+    display: block;
+  }
+
+  .side-links ul{
+    align-items: center;
+    justify-content: center;
+    float: right;
+  }
+
+  .side-links li{
+    padding-top: 4rem;
+  }
+
+  .team-photo {
+    width: 100%;
+    /*padding: 1rem 9rem;*/
+  }
+
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+
+  .txt-hero {
+    position: absolute;
+    width: 75%;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    background-color: rgba(24, 48, 50, 0.4);
+    padding: 1rem;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .schedule-btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:15px;
+    border-radius: 5px;
+    background-color: #1a283a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .txt-hero {
+      font-size: 2rem;
+    }
+    .schedule-btn {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .txt-hero {
+      font-size: 1rem;
+    }
+    .schedule-btn {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+
+.schedule-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-news {
+  padding: 100px 0;
+}
+
+.max-width {
+  color: #1a283a;
+  max-width: 1300px;
+  padding: 0 45px;
+  margin: auto;
+}
+
+.max-width h1{
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.display-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card {
+  padding: 0px 0px;
+  width: calc(26% - 20px);
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+  user-select: none;
+  box-shadow: 0 7px 7px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+.txt {
+  padding: 10px 25px;
+}
+
+.card:hover .txt {
+  transform: scale(1.05);
+}
+
+.box h3 {
+  font-size: 25px;
+  padding: 10px 0 7px;
+}
+
+@media screen and (max-width: 1190px) {
+  .max-width {
+    padding: 0 25px;
+  }
+
+  .card{
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card{
+    width: 100%;
+  }
+
+  .none {
+    display: none;
+  }
+}
+.card a{
+  color: #7c838c;
+}
+
+.card:hover p{
+  text-decoration: underline;
+}
+
+
+.win {
+  color: #18b500;
+}
+
+.loss {
+  color: #e60404;
+}
+
+.not-played {
+  color: #7c838c;
+}
+
+.head-text h1{
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  padding: 1rem;
+}
+
+.games{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.game-card{
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.4);
+  width: 25%;
+}
+
+.game-card img{
+  width: 80px;
+}
