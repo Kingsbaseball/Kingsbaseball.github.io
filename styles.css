@@ -266,6 +266,7 @@
   justify-content: space-between;
   padding: 10px;
   flex-wrap: wrap;
+  gap: 35px;
 }
 
 .game-card{
@@ -276,7 +277,6 @@
   border-radius: 6px;
   box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.4);
   width: 49%;
-  margin: 20px;
 }
 
 .game-card img{
