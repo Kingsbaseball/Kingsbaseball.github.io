@@ -279,7 +279,7 @@
 }
 
 .game-card img{
-  width: 80px;
+  width: 48%;
 }
 .teams {
   display: flex;
@@ -298,7 +298,7 @@
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .game-card {
     width: 100%;
     margin-top: 20px;
