@@ -269,12 +269,12 @@
 }
 
 .game-card{
+    margin-top: 35px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
   border: none;
   border-radius: 6px;
-    margin-top: 20px
   box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.4);
   width: 49%;
 }
