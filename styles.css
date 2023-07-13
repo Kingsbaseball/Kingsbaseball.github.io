@@ -662,3 +662,26 @@ nav h1 i {
     background-color: var(--primary);
   }
 /* primary alert end */
+
+.no-games{
+  width: 100%;
+  min-height: 25rem;
+  position: relative;
+}
+
+.no-games div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.no-games i{
+  background-color: var(--primary);
+  border-radius: 50%;
+  line-height: 60px;
+  min-height: 60px;
+  min-width: 60px;
+  font-size: 25px;
+}
