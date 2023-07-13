@@ -540,3 +540,125 @@ nav h1 i {
     padding: 15px 0px 10px 5px;
   }
 }
+.notification-center{
+  padding: 35px;
+}
+
+:root{
+  --default: #999;
+  --success: #51be56;
+  --warning: #ffc107;
+  --danger: #ff5722;
+  --primary: #29B6F6;
+}
+
+.alert{
+  border: 1px solid var(--default);
+  border-left: 5px solid var(--default);
+  box-shadow: 0 0 4px #ddd, 0 2px 10px #ddd, 0 2px 20px #ddd;
+  
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  transition: 0.5s ease-in;
+}
+
+.alert.close{
+  transform: translateY(40px);
+  background: #fff;
+  opacity: 0;
+}
+
+
+.alert>.icon{
+  min-width: 40px;
+  min-height: 40px;
+  
+  background-color: var(--default);
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.alert>.icon>.fa{
+  line-height: 40px;
+}
+
+
+.alert>.text{
+  width: 100%;
+  padding: 0 15px;
+}
+
+.alert>.text strong{
+  color: #333;
+}
+.alert>.text p{
+  color: #666;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+
+.alert>.close{
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #777;
+  outline:none;
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+}
+.alert>.close:hover{
+  color: red;
+}
+
+
+
+/* success alert start */
+  .alert-success{
+    border: 1px solid var(--success);
+    border-left: 5px solid var(--success);
+  }
+  .alert-success>.icon{
+    background-color: var(--success);
+  }
+/* success alert end */
+
+
+
+/* warning alert start */
+  .alert-warning{
+    border: 1px solid var(--warning);
+    border-left: 5px solid var(--warning);
+  }
+  .alert-warning>.icon{
+    background-color: var(--warning);
+  }
+/* warning alert end */
+
+
+
+/* danger alert start */
+  .alert-danger{
+    border: 1px solid var(--danger);
+    border-left: 5px solid var(--danger);
+  }
+  .alert-danger>.icon{
+    background-color: var(--danger);
+  }
+/* danger alert end */
+
+
+
+/* primary alert start */
+  .alert-primary{
+    border: 1px solid var(--primary);
+    border-left: 5px solid var(--primary);
+  }
+  .alert-primary>.icon{
+    background-color: var(--primary);
+  }
+/* primary alert end */
