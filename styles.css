@@ -685,3 +685,13 @@ nav h1 i {
   min-width: 60px;
   font-size: 25px;
 }
+
+.footer-team-photo{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
