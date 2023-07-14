@@ -694,4 +694,10 @@ nav h1 i {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 15px
+}
+
+.footer-team-photo{
+    width: 100%;
+    position: relative;
 }
