@@ -701,3 +701,12 @@ nav h1 i {
     width: 100%;
     position: relative;
 }
+
+.canceled {
+  text-decoration: line-through;
+  color: var(--danger);
+}
+
+.color-red{
+  color: var(--danger);
+}
