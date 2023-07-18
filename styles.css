@@ -711,3 +711,88 @@ nav h1 i {
 .color-red{
   color: var(--danger);
 }
+
+.tourneys{
+  width: 100%;
+  padding: 15px;
+}
+
+.tourney {
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 0 0 4px #ddd, 0 2px 10px #ddd, 0 2px 20px #ddd;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.split{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+  line-height: 35px;
+}
+
+.side1{
+  font-size: 1.5rem;
+}
+
+.side2 img{
+  padding-right: 20px;
+}
+.text-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(172,0,0,1) 100%);
+  color: white;
+}
+
+.no-link{
+  color: #000;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #23354d;
+  color: white;
+}
+
+.tab button.active {
+  background-color: #1a283a;
+  color: white;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tourney-header-text{
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 45px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .side1{
+    font-size: 1rem;
+  }
+}
+
