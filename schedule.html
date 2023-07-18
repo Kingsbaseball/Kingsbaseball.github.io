@@ -35,136 +35,42 @@
             </ul>
         </div>
     </header>
-   <!-- 
- <div class="notification-center">
-        <!--
-        <div class="alert">
-            <span class="icon">
-              <i class="fa fa-superpowers"></i>
-            </span>
-            
-            <div class="text">
-              <strong>Default</strong>
-              <p>Default Message Description Goes Here!</p>
+    <section class="tourneys">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'games')" id="defaultOpen">Games</button>
+                <button class="tablinks" onclick="openTab(event, 'practices')">Practices</button>
             </div>
-            
-            <button class="close">
-              <i class="fa fa-close"></i>
-            </button>
-            
-          </div>
-          
-          
-          
-          <div class="alert alert-success">
-            <span class="icon">
-              <i class="fa fa-check"></i>
-            </span>
-            
-            <div class="text">
-              <strong>Success</strong>
-              <p>Success Message Description Goes Here!</p>
-            </div>
-            
-            <button class="close">
-              <i class="fa fa-close"></i>
-            </button>
-            
-          </div>
-          
-          
-          
-          <div class="alert alert-warning">
-            <span class="icon">
-              <i class="fa fa-exclamation-triangle"></i>
-            </span>
-            
-            <div class="text">
-              <strong>Warning</strong>
-              <p>Warning Message Description Goes Here</p>
-            </div>
-            
-            <button class="close">
-              <i class="fa fa-close"></i>
-            </button>
-            
-          </div>
-          
-          -->
-          <!--
-          <div class="alert alert-danger">
-            <span class="icon">
-              <i class="fa fa-close"></i>
-            </span>
-            
-            <div class="text">
-              <strong>Practice Canceled</strong>
-              <p>Baseball practice for today  canceled! Some players will be at DBat from 9am to 11am.</p>
-            </div>
-            
-            <button class="close">
-              <i class="fa fa-close"></i>
-            </button>
-            
-          </div>
-          -->
-          <!--
-          
-          <div class="alert alert-primary">
-            <span class="icon">
-              <i class="fa fa-info"></i>
-            </span>
-            
-            <div class="text">
-              <strong>Pictures are Posted</strong>
-              <p>Pictures are posted and are ready! Go to <a href="pictures.html">Kingsbaseball.github.io/pictures</a> to see the final products!</p>
-            </div>
-            
-            <button class="close">
-              <i class="fa fa-close"></i>
-            </button>
-            
-          </div>
-        -->
-    </div>
-      <div class="no-games">
-        <div>
-            <i class="fa-solid fa-baseball-bat-ball"></i>
-            <h1>No Games Posted</h1>
-        </div>
-    </div>
- <div class="notification-center">
-    <!--
-    <div class="schedule-page">
-        <div class="game-box">
-            <div class="team-playing">
-                <div class="team-and-info">
-                    <h1>@ Complete Game Dodgers</h1>
-                    <h3>Fri, August 25 @TBD</h3>
+            <div id="games" class="tabcontent">
+                <div class="no-games">
+                    <div>
+                        <i class="fa-solid fa-baseball-bat-ball"></i>
+                        <h1>No Games Posted</h1>
+                    </div>
                 </div>
-                <h3 class="not-played status">Game Hasen't Started</h3>
             </div>
-        </div>
-        <div class="game-box">
-            <div class="team-playing">
-                <div class="team-and-info">
-                    <h1>TBD</h1>
-                    <h3>Sat, August 26 @TBD</h3>
+            <div id="practices" class="tabcontent">
+                <div class="game-box">
+                    <div class="team-playing">
+                        <div class="team-and-info">
+                            <h1>Practice</h1>
+                            <h3>Thu, July 20 @7:00PM</h3>
+                            <h4>Stilwell Elementary</h4>
+                        </div>
+                        <h3 class="not-played status">Practice</h3>
+                    </div>
                 </div>
-                <h3 class="not-played status">Game Hasen't Started</h3>
-            </div>
-        </div>
-        <div class="game-box">
-            <div class="team-playing">
-                <div class="team-and-info">
-                    <h1>TBD</h1>
-                    <h3>Sun, August 27 @TBD</h3>
+                <div class="game-box">
+                    <div class="team-playing">
+                        <div class="team-and-info">
+                            <h1>Practice</h1>
+                            <h3>Thu, July 27 @7:00PM</h3>
+                            <h4>Stilwell Elementary</h4>
+                        </div>
+                        <h3 class="not-played status">Practice</h3>
+                    </div>
                 </div>
-                <h3 class="not-played status">Game Hasen't Started</h3>
             </div>
-        </div>
-    </div>
-    -->
+        </section>
     <script src="script.js"></script>
 </body>
 </html>
