@@ -803,3 +803,11 @@ nav h1 i {
   }
 }
 
+
+.team-playing.next{
+  border: 3px solid #29B6F6;
+}
+
+.next{
+  color: #29B6F6;
+}
