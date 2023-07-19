@@ -765,6 +765,7 @@ nav h1 i {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  color: #000;
 }
 
 .tab button:hover {
