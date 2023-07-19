@@ -30,3 +30,20 @@ if(alert_close_icons)
     });
   });
 }
+
+/* For Tabs */
+function openTab(evt, tabContents) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabContents).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
