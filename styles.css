@@ -796,3 +796,9 @@ nav h1 i {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .side2 img{
+    display: none;
+  }
+}
+
