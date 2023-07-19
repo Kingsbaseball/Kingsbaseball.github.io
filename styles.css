@@ -532,6 +532,7 @@ nav h1 i {
 
 .team-and-info{
   padding: 5px;
+  color: #000;
 }
 
 @media screen and (max-width: 900px) {
