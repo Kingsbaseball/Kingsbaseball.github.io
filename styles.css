@@ -850,3 +850,25 @@ nav h1 i {
   opacity: 0;
   transition: ease-in-out 0.5s;
 }
+
+.intro img{
+  width: 1000px;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro img{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro img{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro img{
+    width: 300px;
+  }
+}
