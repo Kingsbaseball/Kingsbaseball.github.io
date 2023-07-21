@@ -832,20 +832,20 @@ nav h1 i {
   color: #fff;
 }
 
-.logo{
+.splash-logo{
   position: relative;
   display: inline-block;
   bottom: -20px;
   opacity: 0;
 }
 
-.logo.active{
+.splash-logo.active{
   bottom: 0;
   opacity: 1;
   transition: ease-in-out 0.5s;
 }
 
-.logo.fade{
+.splash-logo.fade{
   bottom: 150px;
   opacity: 0;
   transition: ease-in-out 0.5s;
