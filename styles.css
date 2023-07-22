@@ -885,3 +885,9 @@ nav h1 i {
   align-items: center;
   justify-content: center;
 }
+
+
+.team-and-info h4 a{
+    color: #000;
+    text-decoration: underline;
+}
