@@ -872,3 +872,22 @@ nav h1 i {
     width: 300px;
   }
 }
+
+.location-key-map-iframe{
+  width: 90%;
+  height: 85%;
+  padding-top: 100px;
+}
+
+.center-location{
+  width: 100%;
+  height: 85%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.team-and-info h4 a{
+    color: #000;
+    text-decoration: underline;
+}
