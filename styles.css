@@ -883,3 +883,21 @@ nav h1 i {
     color: #000;
     text-decoration: underline;
 }
+
+
+.iframe-padding{
+  width: 100%;
+  padding: 70px 20px 20px 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .font-shrink{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .iframe-padding{
+    padding: 20px 20px 20px 20px;
+  }
+}
