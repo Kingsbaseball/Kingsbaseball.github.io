@@ -724,6 +724,7 @@ nav h1 i {
   box-shadow: 0 0 4px #ddd, 0 2px 10px #ddd, 0 2px 20px #ddd;
   margin-top: 20px;
   border-radius: 15px;
+  padding: 5px;
 }
 
 .split{
