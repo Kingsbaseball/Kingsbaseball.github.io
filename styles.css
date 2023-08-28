@@ -720,7 +720,7 @@ nav h1 i {
 
 .tourney {
   width: 100%;
-  border: 2px solid black;
+  border: none;
   box-shadow: 0 0 4px #ddd, 0 2px 10px #ddd, 0 2px 20px #ddd;
   margin-top: 20px;
   border-radius: 15px;
