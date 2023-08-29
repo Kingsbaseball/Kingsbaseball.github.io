@@ -928,9 +928,10 @@ nav h1 i {
   padding: 10px;
   background-color: white;
   position: relative;
-  top: 4rem;
+  top: 1rem;
   left: 50%;
   transform: translate(-50%, 0%)
+  width: 25%;
 }
 
 .general-info{
@@ -943,7 +944,7 @@ nav h1 i {
 }
 @media screen and (max-width: 950px){
   .tournament-photo{
-    width: 25%;
+    width: 20%;
   }
   .tournament-header{
     font-size: 30px;
