@@ -933,7 +933,9 @@ nav h1 i {
   transform: translate(-50%, 0%);
   width: 14%;
 }
-
+.tournament-header{
+    font-size: 30px;
+}
 .general-info{
   width: 100%;
   text-align: center;
