@@ -938,7 +938,9 @@ nav h1 i {
   text-align: center;
   padding-bottom: 3px;
 }
-
+.general-text{
+  padding: 3px
+}
 @media screen and (max-width: 950px){
   .tournament-photo{
     width: 25%;
