@@ -930,7 +930,7 @@ nav h1 i {
   position: relative;
   top: 1rem;
   left: 50%;
-  transform: translate(-50%, 0%)
+  transform: translate(-50%, 0%);
   width: 25%;
 }
 
