@@ -931,7 +931,7 @@ nav h1 i {
   top: 1rem;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 25%;
+  width: 17%;
 }
 
 .general-info{
@@ -943,17 +943,11 @@ nav h1 i {
   padding: 3px
 }
 @media screen and (max-width: 950px){
-  .tournament-photo{
-    width: 20%;
-  }
   .tournament-header{
     font-size: 30px;
   }
 }
 @media screen and (max-width: 870px){
-  .tournament-photo{
-    width: 17%;
-  }
   .tournament-header{
     font-size: 25px;
   }
@@ -969,6 +963,7 @@ nav h1 i {
 @media screen and (max-width: 610px){
   .tournament-photo{
     display: none;
+    padding: 2px;
   }
   .tournament-header{
     font-size: 23px;
