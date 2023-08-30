@@ -982,6 +982,7 @@ nav h1 i {
   border-top-right-radius: 10px;
   display: none;
   overflow: scroll;
+  background-color: #fff;
 }
 
 .tourney-close-bar{
