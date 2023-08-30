@@ -47,3 +47,11 @@ function openTab(evt, tabContents) {
 }
 
 document.getElementById("defaultOpen").click();
+
+/*For Tournaments*/
+function showCFTP2023() {
+   document.getElementById('CFTP2023-details').style.display = "block";
+}
+function hideCFTP2023() {
+   document.getElementById('CFTP2023-details').style.display = "none";
+}
