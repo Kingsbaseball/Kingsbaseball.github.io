@@ -972,3 +972,56 @@ nav h1 i {
   }
 }
 
+.tourny-details-section{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: none;
+  overflow: scroll;
+}
+
+.tourney-close-bar{
+  background-color: #cccccc;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+  position: fixed;
+  z-index: 4;
+}
+
+.tournament-image{
+  background-color: #333366;
+  width: 100%;
+}
+.tournament-image img{
+  width: 7rem;
+  position: relative;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100%;
+  padding: 10px;
+  background-color: white;
+  margin-top: 36px;
+}
+
+.tourney-header-details{
+  background-color: #333366;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width: 550px){
+  .tourney-header-details{
+  font-size: 10px;
+  }
+}
