@@ -55,3 +55,10 @@ function showCFTP2023() {
 function hideCFTP2023() {
    document.getElementById('CFTP2023-details').style.display = "none";
 }
+
+function showFES2023() {
+   document.getElementById('FES2023-details').style.display = "block";
+}
+function hideFES2023() {
+   document.getElementById('FES2023-details').style.display = "none";
+}
