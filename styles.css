@@ -983,7 +983,6 @@ nav h1 i {
   display: none;
   overflow: scroll;
   background-color: #fff;
-  padding: 7px;
 }
 
 .tourney-close-bar{
@@ -1019,6 +1018,10 @@ nav h1 i {
   justify-content: space-between;
   padding: 10px;
   color: #fff;
+}
+
+.tourney-detail-scores {
+  padding: 5px;
 }
 
 @media screen and (max-width: 550px){
