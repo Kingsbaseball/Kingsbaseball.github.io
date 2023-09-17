@@ -983,6 +983,7 @@ nav h1 i {
   display: none;
   overflow: scroll;
   background-color: #fff;
+  padding: 7px;
 }
 
 .tourney-close-bar{
