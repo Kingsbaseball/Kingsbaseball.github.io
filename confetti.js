@@ -9,7 +9,7 @@ const COLORS = [
   "#1A04B3",
   "#F81C4D"
 ];
-const confetti = document.getElementById("canvas");
+const canvas = document.getElementById("confetti");
 const ctx = canvas.getContext("2d");
 const wW = window.innerWidth;
 const wH = window.innerHeight;
