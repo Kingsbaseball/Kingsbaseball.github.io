@@ -665,6 +665,16 @@ nav h1 i {
   }
 /* primary alert end */
 
+/* Champions alert start */
+  .alert-champions{
+    border: 1px solid var(--champions);
+    border-left: 5px solid var(--champions);
+  }
+  .alert-champions>.icon{
+    background-color: var(--champions);
+  }
+/* champions alert end */
+
 .no-games{
   width: 100%;
   min-height: 25rem;
