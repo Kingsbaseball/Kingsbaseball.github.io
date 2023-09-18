@@ -9,8 +9,8 @@ const COLORS = [
   "#1A04B3",
   "#F81C4D"
 ];
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
+const confetti = document.getElementById("confetti");
+const ctx = confetti.getContext("2d");
 const wW = window.innerWidth;
 const wH = window.innerHeight;
 
@@ -52,8 +52,8 @@ class Confetti {
   }
 }
 
-canvas.width = wW;
-canvas.height = wH;
+confetti.width = wW;
+confetti.height = wH;
 let animationId;
 
 const drawConfetti = () => {
@@ -94,8 +94,12 @@ function stop() {
 
 setTimeout(stop, 10000);
 
-function stop() {
-  document.getElementById("canvas").style.display = "none";
+function stop() {     
+  document.getElementById("confetti").classList.add("fadeOut");
+  
+  setTimeout(end, 4000);
+  
+  function end(){
+    document.getElementById("confetti").style.display = "none";
+  }
 }
-
-
