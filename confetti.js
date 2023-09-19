@@ -92,7 +92,7 @@ function stop() {
   cancelAnimationFrame(animationId);
 }
 
-setTimeout(stop, 10000);
+setTimeout(stop, 85000);
 
 function stop() {     
   document.getElementById("confetti").classList.add("fadeOut");
