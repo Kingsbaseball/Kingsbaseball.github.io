@@ -39,20 +39,12 @@
         <h1>1 <span class="smaller-text">Garrison Munsen</span> 7</h1>
     </div>
     <div class="player-potrait-grid">
-        <img src="photos/gm17/IMG_0293.jpg" alt="">
-        <img src="photos/gm17/IMG_0294.jpg" alt="">
-        <img src="photos/gm17/IMG_0314.jpg" alt="">
-        <img src="photos/gm17/IMG_0475.jpg" alt="">
-        <img src="photos/gm17/IMG_0488.jpg" alt="">
-        <img src="photos/gm17/IMG_0512.jpg" alt="">
-        <img src="photos/gm17/IMG_0526.jpg" alt="">
+        <img src="photos/IMG_3517" alt="">
+        <img src="photos/IMG_3519" alt="">
         <div class="together-photos">
-          <img src="photos/gm17/IMG_9871.jpg" alt="">
-          <img src="photos/gm17/IMG_0513.jpg" alt="">
+          <img src="photos/IMG_3527.jpg" alt="">
+          <img src="photos/IMG_3528.jpg" alt="">
         </div>
-        <img src="IMG_0147.jpg" alt="">
-        <img src="IMG_0148.jpg" alt="">
-        <img src="garrison-edited.png" alt="">
     </div>
     <script src="script.js"></script>
 </body>
