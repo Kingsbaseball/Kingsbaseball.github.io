@@ -1044,6 +1044,7 @@ nav h1 i {
   top: 0%;
   right: 0%;
   z-index: 999999999999999999;
+  background: none;
 }
 
 @-webkit-keyframes fadeOut {
